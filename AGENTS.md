@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+Keep legacy static styles and scripts under `public/assets/`, not root `assets/`, so Nitro does not bundle browser files as server raw assets.
